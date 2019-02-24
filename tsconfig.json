@@ -12,8 +12,8 @@
 			{ "transform": "typeusage", "schema": "src/graphqlschema.d.ts", "excludeTypes": [], "outFile": "src/types.js" }, 
 			{ "transform": "atom4/transformer" }, 
 			{ "transform": "reactobem" },
-			{ "transform": "reveal-in-vscode/transformer" }
+			{ "transform": "reveal-in-vscode/transformer" },
+			{ "name": "exclude-legacy-plugin" }
 		]
-	},
-	"exclude": ["node_modules"]
+	}
 }
