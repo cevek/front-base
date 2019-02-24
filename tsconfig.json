@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"outDir": "dist",
+		"jsx": "react",
+		"strict": true,
+		"preserveSymlinks": true,
+		"esModuleInterop": true,
+		"plugins": [
+			{ "transform": "typeusage", "schema": "src/graphqlschema.d.ts", "excludeTypes": [], "outFile": "src/types.js" }, 
+			{ "transform": "atom4/transformer" }, 
+			{ "transform": "reactobem" },
+			{ "transform": "reveal-in-vscode/transformer" }
+		]
+	},
+	"exclude": ["node_modules"]
+}
