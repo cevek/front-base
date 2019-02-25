@@ -17,10 +17,11 @@
 		"@types/react-dom": "^16.0.11",
 		"atom4": "^1.0.1",
 		"exclude-legacy-plugin": "^1.0.1",
+		"optional-chaining-plugin": "^1.0.2",
 		"react": "^16.7.0",
 		"react-dom": "^16.7.0",
 		"reactobem": "^1.0.9",
-		"typeusage": "^1.0.0"
+		"typeusage": "^1.0.2"
 	},
 	"devDependencies": {
 		"reveal-in-vscode": "^1.0.2",

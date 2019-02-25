@@ -1,3 +1,4 @@
+import 'optional-chaining-plugin';
 import 'reactobem/customElements';
 import { AtomProvider, Store, devTools } from 'atom4';
 import React, { Suspense } from 'react';

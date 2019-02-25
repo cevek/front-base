@@ -13,6 +13,7 @@
 			{ "transform": "atom4/transformer" }, 
 			{ "transform": "reactobem" },
 			{ "transform": "reveal-in-vscode/transformer" },
+			{ "transform": "optional-chaining-plugin/transformer" },
 			{ "name": "exclude-legacy-plugin" }
 		]
 	}
