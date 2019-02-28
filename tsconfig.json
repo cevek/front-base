@@ -9,12 +9,12 @@
 		"preserveSymlinks": true,
 		"esModuleInterop": true,
 		"plugins": [
-			{ "transform": "typeusage", "schema": "src/graphqlschema.d.ts", "excludeTypes": [], "outFile": "src/types.js" }, 
 			{ "transform": "atom4/transformer" }, 
 			{ "transform": "reactobem" },
 			{ "transform": "reveal-in-vscode/transformer" },
 			{ "transform": "optional-chaining-plugin/transformer" },
-			{ "name": "exclude-legacy-plugin" }
+			{ "name": "exclude-legacy-plugin" },
+			{ "name": "typed-graphql-query/plugin" }
 		]
 	}
 }
